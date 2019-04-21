@@ -157,7 +157,7 @@ app.get('/categories', async (req, res) =>
 			 console.log(err);
              return res.end("Something went wrong!");
          }
-         return res.send({"url":"http://localhost:3000/images/"+fileName});
+         return res.send({"url":"https://popcornapi.herokuapp.com/images/"+fileName});
      });
  });
 
